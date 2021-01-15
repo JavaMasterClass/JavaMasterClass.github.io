@@ -18,6 +18,10 @@
   * Predicate
   * Function
 
+#### L3A2
+* Write a `Comparator` to sort an `List<String>` containing numbers names according to lenght of number name.
+  * Use Lambda chaining.
+
 ***
 
 ### Previous Assignments
