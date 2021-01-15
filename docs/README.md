@@ -10,8 +10,8 @@ reinstall --cask oracle-jdk`
 * Get access to Masterclass repository [JavaMasterClass2021](https://github.com/JavaMasterClass/JavaMasterClass.github.io)
 
 ### Previous Assignments
-* [Lecture 1](https://javamasterclass.github.io/Lecture_1.html)
-* [Lecture 2](https://javamasterclass.github.io/Lecture_2.html)
+* [Lecture 1](https://javamasterclass.github.io/Lecture1.html)
+* [Lecture 2](https://javamasterclass.github.io/Lecture2.html)
 
 ### Assignment Lecture 3 (L3)
 #### L3A1
