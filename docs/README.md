@@ -9,7 +9,7 @@ reinstall --cask oracle-jdk`
 * Create an account on Github.com
 * Get access to Masterclass repository [JavaMasterClass2021](https://github.com/JavaMasterClass/JavaMasterClass.github.io)
 
-### Assignment Lecture 1 (L1)
+### Previous Assignments
 * [Lecture 1](https://javamasterclass.github.io/Lecture_1.html)
 * [Lecture 2](https://javamasterclass.github.io/Lecture_2.html)
 

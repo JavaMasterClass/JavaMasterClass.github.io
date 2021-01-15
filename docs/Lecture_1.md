@@ -1,3 +1,4 @@
+
 ### Assignment Lecture 1
 #### L1A1
 * `Class`: Create a top level class Human with properties (name, gender, cash, assets).
