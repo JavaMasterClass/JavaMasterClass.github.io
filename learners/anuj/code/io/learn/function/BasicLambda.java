@@ -28,14 +28,17 @@ public class BasicLambda {
         // Predicate
         List<String> numberNames = new ArrayList<>(List.of("one", "two", "three", "four", "five"));
 
-        Predicate<String> filter = s -> !s.startsWith("t");
+        Predicate<String> filter = (String s) -> s.startsWith("t");
         numberNames.removeIf(filter);
         numberNames.forEach(consumer);
+        
 
         // Function
         List<Hero> heros = List.of(new Hero(Planet.EARTH, "Shield", 5), new Hero(Planet.EARTH, "Web-Shooters", 10), new Hero(Planet.MARS, "Lasso", 20));
         List<String> weapons = new ArrayList<>();
-        Function<Hero, String> toWeapon = (Hero hero) -> hero.getSecretWeapon();
+
+        Function<Hero, String> toWeapon = hero -> hero.getSecretWeapon();
+        
         for(Hero hero: heros)
             weapons.add(toWeapon.apply(hero));
         weapons.forEach(consumer);
