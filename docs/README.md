@@ -11,14 +11,21 @@
 
 ### Assignment Lecture 3 (L3)
 #### L3A1
+* re-write code in package `io.learn.funtion` in a non funtional way
+#### L3A2
 * Write function to select Human based on cash, assets using Lambda
-* Write lambda for each type of Functional interface in `java.util.function` package
+#### L3A3
+* Write lambda for each type of Functional interface in `java.util.function` package (Think of a scenario and apply it)
   * Supplier
   * Consumer
   * Predicate
   * Function
+#### L3V1 (only for vikas)
+* Write a class with one methiod accepting deault argumants (if they exist)
 
-#### L3A2
+***
+
+#### L4A1
 * Write a `Comparator` to sort an `List<String>` containing numbers names according to lenght of number name.
   * Use Lambda chaining.
 
