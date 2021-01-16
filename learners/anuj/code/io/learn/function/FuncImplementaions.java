@@ -17,7 +17,7 @@ public class FuncImplementaions {
 
         // Using regular classes
         FuncImplementaions f = new FuncImplementaions();
-        SelectHeroImpl filter = new SelectHeroImpl();
+        SelectEarthHeros filter = new SelectEarthHeros();
         f.deployHero(f.heros, filter);
 
         // Using annonymous class
