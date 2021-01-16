@@ -3,23 +3,31 @@
  ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
 ### [Java Master Class 2021](https://javamasterclass.github.io/)
-* reinstall --cask oracle-jdk`
-* Install Microsoft Visual Studio code. Mac OS: `brew install --cask visual-studio-code`
-* Install Git. On Mac OS: `brew install git`
+* Install Java. 
+  * Mac OS: `brew install --cask oracle-jdk`
+* Install Microsoft Visual Studio code. 
+  * Mac OS: `brew install --cask visual-studio-code`
+* Install Git.
+  * Mac OS: `brew install git`
 * Create an account on Github.com
 * Get access to Masterclass repository [JavaMasterClass2021](https://github.com/JavaMasterClass/JavaMasterClass.github.io)
 
 ### Assignment Lecture 3 (L3)
 #### L3A1
-* re-write code in package `io.learn.funtion` in a non funtional way
+* Implement functionality of `io.learn.funtion` package in a non funtional way
+
 #### L3A2
-* Write function to select Human based on cash, assets using Lambda
+* Write function to filter Human based on following using lambda
+  * cash
+  * assets
+
 #### L3A3
 * Write lambda for each type of Functional interface in `java.util.function` package (Think of a scenario and apply it)
   * Supplier
   * Consumer
   * Predicate
   * Function
+
 #### L3V1 (only for vikas)
 * Write a class with one methiod accepting deault argumants (if they exist)
 
