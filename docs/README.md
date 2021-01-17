@@ -2,12 +2,14 @@
 
  ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
-## [Upcoming Batch]
+## Upcoming Batches
 ### February, 2021
 * [1st February Batch](https://javamasterclass.github.io/February1.html)
 
 ## Previous Batch
-### [Java Master Class 2021](https://javamasterclass.github.io/)
+* [Java Master Class 2021](https://javamasterclass.github.io/)
+
+### Development Environment Setup
 * Install Java. 
   * Mac OS: `brew install --cask oracle-jdk`
 * Install Microsoft Visual Studio code. 
@@ -29,6 +31,7 @@
 * [Lecture 1](https://javamasterclass.github.io/Lecture1.html)
 * [Lecture 2](https://javamasterclass.github.io/Lecture2.html)
 * [Lecture 3](https://javamasterclass.github.io/Lecture3.html)
+
 ***
 
 ### Guides
