@@ -1,3 +1,4 @@
+ ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
 # Java 8 and beyond in 5 weeks!
 ## Write concise, elegant and performant code in modern Java
 
