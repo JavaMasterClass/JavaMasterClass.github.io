@@ -36,10 +36,12 @@ public class FuncImplementaions {
         f.deployHero(f.heros, p -> p.damage < 9);
         f.deployHero(f.heros, p -> p.planet == Planet.EARTH);
 
+        
+        
         List<String> numberNames = new ArrayList<>(List.of("one", "two", "three", "four", "five", "hundred"));
-        // Using Predicate
+        // Using Predicate (argument type and returns a boolean)
         f.topper(f.heros, p -> p.damage > 20);
-        f.topper(numberNames, (String s) -> s.startsWith("h"));
+        f.topper(numberNames, s -> s.startsWith("h"));
     }
 
     // method accepting a list and functional interface

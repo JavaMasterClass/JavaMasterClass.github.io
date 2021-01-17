@@ -21,7 +21,7 @@ public class FnChain {
         new Hero(Planet.EARTH, "NewBee", 1)
         );
 
-        // functions
+        // functions (Take argument T and return type R)
         Function<Hero, String> getWeapon = hero -> hero.getSecretWeapon();
         Function<String, String> reverse = s ->  new StringBuilder(s).reverse().toString();
         Function<String, String> ewith3 = s -> s.replace('e', '3');
@@ -38,7 +38,7 @@ public class FnChain {
         //print weapon codes
         System.out.printf("%s %s%n", "Hero Weapons:", weapons);
 
-        // Original
+        // Get Original weapon name
         weapons.stream().map(reverse.andThen(threewithe)).collect(Collectors.toList()).forEach(System.out::println);
 
     }

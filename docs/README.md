@@ -2,6 +2,11 @@
 
  ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
+## [Upcoming Batch]
+### February, 2021
+* [1st February Batch](https://javamasterclass.github.io/February1.html)
+
+## Previous Batch
 ### [Java Master Class 2021](https://javamasterclass.github.io/)
 * Install Java. 
   * Mac OS: `brew install --cask oracle-jdk`
@@ -11,25 +16,6 @@
   * Mac OS: `brew install git`
 * Create an account on Github.com
 * Get access to Masterclass repository [JavaMasterClass2021](https://github.com/JavaMasterClass/JavaMasterClass.github.io)
-
-### Assignment Lecture 3 (L3)
-#### L3A1
-* Implement functionality of `io.learn.funtion` package in a non funtional way
-
-#### L3A2
-* Write function to filter Human based on following using lambda
-  * cash
-  * assets
-
-#### L3A3
-* Write lambda for each type of Functional interface in `java.util.function` package (Think of a scenario and apply it)
-  * Supplier
-  * Consumer
-  * Predicate
-  * Function
-
-#### L3V1 (only for vikas)
-* Write a class with one methiod accepting deault argumants (if they exist)
 
 ***
 
@@ -42,7 +28,7 @@
 ### Previous Assignments
 * [Lecture 1](https://javamasterclass.github.io/Lecture1.html)
 * [Lecture 2](https://javamasterclass.github.io/Lecture2.html)
-
+* [Lecture 3](https://javamasterclass.github.io/Lecture3.html)
 ***
 
 ### Guides
