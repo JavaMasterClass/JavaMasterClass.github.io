@@ -5,6 +5,7 @@
 ## Upcoming Batches
 ### February, 2021
 * [1st February Batch](https://javamasterclass.github.io/February1.html)
+* [1st February Batch (pdf)](https://javamasterclass.github.io/Java8andbeyond.pdf)
 
 ## Previous Batch
 * [Java Master Class 2021](https://javamasterclass.github.io/)
