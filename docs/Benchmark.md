@@ -17,6 +17,11 @@
 * Q&A
 
 #### Duration: 45 minutes
+
+#### Mode: Online
+
+#### Cost: $0
+
 #### Presenter: Anuj Jain 
 * [Linkedin](https://www.linkedin.com/in/aianuj/)
 * [Web](https://javamasterclass.github.io/)
