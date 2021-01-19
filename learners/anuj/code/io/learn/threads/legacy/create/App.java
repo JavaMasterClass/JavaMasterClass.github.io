@@ -1,9 +1,8 @@
-package io.learn.threads.tclass;
+package io.learn.threads.legacy.create;
 
 class RevSeqPrinter implements Runnable {
 
     String name;
-    
 
     @Override
     public void run() {
@@ -36,24 +35,24 @@ public class App {
     public static void main(String[] args) {
         
         // Class extends Thread
-        // for(int i =0; i < 5; i++)
-        //     new SeqPrinter().start();
-        // System.out.println();
+        for(int i =0; i < 5; i++)
+            new SeqPrinter().start();
+        System.out.println();
 
         // // Class implements Runnable
-        // for(int i =0; i < 5; i++)
-        //     new Thread(new RevSeqPrinter("Thread-" + i)).start();
-        // System.out.println();
+        for(int i =0; i < 5; i++)
+            new Thread(new RevSeqPrinter("Thread-" + i)).start();
+        System.out.println();
 
         // // Annonymous Class
-        // for(int i=0; i < 5; i++) 
-        //     new Thread(new Runnable() {
-        //         @Override
-        //         public void run() {
-        //             for(int i = 0; i < 10; i++)
-        //                 System.out.print(i + " ");   
-        //         }  
-        //     }).start();
+        for(int i=0; i < 5; i++) 
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for(int i = 0; i < 10; i++)
+                        System.out.print(i + " ");   
+                }  
+            }).start();
         
         // Lambda
         for(int i = 0; i < 5; i++)
