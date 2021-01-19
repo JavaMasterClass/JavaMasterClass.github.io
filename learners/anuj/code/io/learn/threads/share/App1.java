@@ -1,17 +1,17 @@
 package io.learn.threads.share;
 
+import java.util.concurrent.atomic.AtomicInteger;
 /**
  * @author Anuj Jain
- * Class showing Thread Interference or Thread Interleaving
- * 
+ * Solve Thread Interference using Automic variable
  */
-public class App {
-    private int count = 0;
+public class App1 {
+
+    private AtomicInteger count = new AtomicInteger(0);
 
     public static void main(String[] args) {
-        App app = new App();
+        App1 app = new App1();
         app.updateCount();
-
         System.out.printf("%d%n", app.getCount());
     }
 
@@ -20,7 +20,7 @@ public class App {
             @Override
             public void run() {
                 for (int i = 0; i < 100000; i++)
-                    count++;
+                    count.incrementAndGet();
             }
         });
 
@@ -28,7 +28,7 @@ public class App {
             @Override
             public void run() {
                 for (int i = 0; i < 100000; i++)
-                    count++;
+                count.incrementAndGet();
             }
         });
 
@@ -44,6 +44,6 @@ public class App {
     }
 
     public int getCount() {
-        return count;
+        return count.get();
     }    
 }
