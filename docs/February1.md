@@ -50,5 +50,3 @@ Pre-requisite:
 * Weekend batch 6th February.
 
 ### Mode: Online
-
-[Home](www.google.com)
