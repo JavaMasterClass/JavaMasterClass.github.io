@@ -4,9 +4,10 @@ package io.learn.threads.legacy.create;
  * @author Anuj Jain
  * Create threads by extendin Thread class
  */
-class TextendT extends Thread {
+class TsubclassThread extends Thread {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) new TextendT().start();
+        System.out.println(Thread.currentThread().getName());
+        for (int i = 0; i < 10; i++) new TsubclassThread().start();
         
         try {
             Thread.sleep(200);
