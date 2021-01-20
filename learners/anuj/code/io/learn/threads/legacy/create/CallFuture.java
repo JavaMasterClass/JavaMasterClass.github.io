@@ -1,4 +1,4 @@
-package io.learn.threads.legacy.share;
+package io.learn.threads.legacy.create;
 
 import java.util.Random;
 import java.util.concurrent.Callable;
