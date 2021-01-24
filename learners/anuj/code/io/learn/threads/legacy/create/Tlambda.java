@@ -9,10 +9,10 @@ public class Tlambda {
         // Lambda
         for (int i = 0; i < 20; i++)
             new Thread(() -> {
-                System.out.printf("%n%s %s %n", "Started", Thread.currentThread().getName());
-                for (int j = 5; j >= 0; j--)
-                    System.out.printf("%s %s %d", "Lambda:", Thread.currentThread().getName(), j);
-                System.out.printf("%n%s %s %n", "Completed", Thread.currentThread().getName());
+                System.out.printf("%n%s %s ", "Started", Thread.currentThread().getName());
+                for (int j = 20; j >= 0; j--)
+                    System.out.printf("%s %s %d ", "Lambda:", Thread.currentThread().getName(), j);
+                System.out.printf("%n%s %s ", "Completed", Thread.currentThread().getName());
                 }).start();
 
         try {
